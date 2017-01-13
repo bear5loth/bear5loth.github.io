@@ -20,7 +20,13 @@ body {
 	color: white;
 }
 ul{
-	background:blue;
+	background: rgba(62,134,249,1);
+	background: linear-gradient(bottom, rgba(62,134,249,1), 
+		rgba(62,134,249,.4));
+	background: -moz-linear-gradient(bottom, rgba(62,134,249,1), 
+		rgba(62,134,249,.4));
+	background: -webkit-linear-gradient(bottom, rgba(62,134,249,1), 
+		rgba(62,134,249,.4));
 }
 li{
 	display: inline;
@@ -35,6 +41,11 @@ a{
 	color:green;
 }
 
-{
-
+article {
+  margin: 0 auto;
+  max-width: 500px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding-right: 5px;
+  padding-left: 10px;
 }
