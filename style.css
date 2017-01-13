@@ -1,0 +1,35 @@
+h1 {
+	
+	font-family: Arial, sans-serif;
+}
+
+header {
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	color:white;
+	background: url("http://patterncooler.com/gen/index/w/hexagonal_cube_mesh_pattern-936.jpg");
+	background-size: cover;
+	background-position: top;
+	margin-top: -45px;
+
+}
+
+body {
+	background: black;
+}
+ul{
+	background:blue;
+}
+li{
+	display: inline;
+	font-size:28px;
+	color: green;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+a{
+	
+	color:green;
+}
