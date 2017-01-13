@@ -12,11 +12,12 @@ header {
 	background-size: cover;
 	background-position: top;
 	margin-top: -45px;
-
+	padding: 0;
 }
 
 body {
 	background: black;
+	color: white;
 }
 ul{
 	background:blue;
@@ -32,4 +33,8 @@ li{
 a{
 	
 	color:green;
+}
+
+{
+
 }
