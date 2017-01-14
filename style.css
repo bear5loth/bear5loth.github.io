@@ -27,6 +27,7 @@ header {
 }
 
 body {
+	margin: 0;
 	font-family: Arial, sans-serif;
 	background: white;
 	color: black;
@@ -63,6 +64,7 @@ ul.navfoot{
 	right: 0;
 	left: 0;
 	text-align: center;
+	z-index: 1001;
 }
 
 a{
@@ -77,7 +79,6 @@ article {
   position: relative;
   max-width: 700px;
   font-family: Arial, sans-serif;
-  border-radius: 5px;
   padding-right: 5px;
   padding-left: 10px;
 }
@@ -87,5 +88,27 @@ h2.blog-title{
 }
 p.blog{
 	border: 2px solid black;
+	border-radius: 5px;
 	padding: 10px 10px 10px 10px;
+}
+
+.websites{
+	position: relative;
+	display: inline-block;
+	margin-left: 25%;
+	max-width: 50%;
+	margin-right: 25%;
+}
+.weblink{
+	border: 2px solid black;
+	border-radius: 5px;
+	position: relative;
+	display: inline-block;
+	max-width: 25%;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+}
+.use{
+	position: fixed;
+	bottom: 0;
 }
