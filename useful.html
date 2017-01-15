@@ -1,47 +1,138 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" type="text/css" href="style.css">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	  <title>Bear5loth's page</title>
   </head>
   <body>
     <header>
-      <h1 class="title">Bear5loth's Site</h1>
-      <ul class="navbar">
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Bear5loth</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav nav">
+              <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li class="active"><a href="useful.html">Useful Sites</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+   <!--
+   <div class="row">
+      <h1 class="title col-sm-12">Bear5loth's Site</h1>
+      <ul class="navbar col-sm-12">
         <li class="navbar"><a href="index.html">Home</a></li>
         <li class="navbar"><a href="#">Projects</a></li>
         <li class="navbar"><a href="#">Useful Sites</a></li>
         <li class="navbar"><a href="#">Contact</a></li>
       </ul>
+    </div>
+    -->
     </header>
-<div class="websites">
-<article>
-    <div class="weblink">
-      <img src="#">
-      <p class="weblinkdesc"><a href="https://bento.io/">Bento.io</a> is a website offering a full stack devolpment guide buy using many differnt free resourses like code acadamy</p>
+    <div class="container">
+        <div class="row row-eq-height">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="bento.png" alt="...">
+              <div class="caption">
+                <h3><a href="https://bento.io/">Bento.io</a></h3>
+                <p><a href="https://bento.io/">Bento.io</a> is a website offering a full stack devolpment guide by using many differnt free resourses like code acadamy, dash, and</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="code.png" alt="...">
+              <div class="caption">
+                <h3><a href="https://www.codecademy.com/">Codecademy.com</a></h3>
+                <p class="weblinkdesc"><a href="https://www.codecademy.com/">Codecademy.com</a> features in browser interactive tutirolals cover subjects like html,css, and javascript and is consently being updated</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="dash.png" alt="...">
+              <div class="caption">
+                <h3><a href="https://dash.generalassemb.ly/">dash.generalassemb.ly</a></h3>
+                <p class="weblinkdesc"><a href="https://dash.generalassemb.ly/">dash.generalassemb.ly</a> is very similar to Codecademy and offers inertactive tutrioals and video guides</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="github.png" alt="...">
+              <div class="caption">
+                <h3><a href="https://github.com/">github.com</a></h3>
+                <p class="weblinkdesc"><a href="https://github.com/">github.com</a> is a site for devolpers use for version control and as a code repository and is almost a must for devolpers</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="screenshot.png" alt="...">
+              <div class="caption">
+                <h3><a href="https://screenshotmachine.com/">screenshotmachine.com</a></h3>
+                <p class="weblinkdesc"><a href="https://screenshotmachine.com/">github.com</a> great for grabing screen shots of websites and has a useful api that i have no idea how to use yet</p>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
-    <div class="weblink">
-      <img src="#">
-      <p class="weblinkdesc"><a href="https://bento.io/">Bento.io</a> is a website offering a full stack devolpment guide buy using many differnt free resourses like code acadamy</p>
-    </div>
-    <div class="weblink">
-      <img src="#">
-      <p class="weblinkdesc"><a href="https://bento.io/">Bento.io</a> is a website offering a full stack devolpment guide buy using many differnt free resourses like code acadamy</p>
-    </div>
-    <div class="weblink">
-      <img src="#">
-      <p class="weblinkdesc"><a href="https://bento.io/">Bento.io</a> is a website offering a full stack devolpment guide buy using many differnt free resourses like code acadamy</p>
-    </div>
-  </article>
-</div>
+    <!--<div class="container">
+        <div class="websites">
+            <article>
+                <div class="row row-eq-height">
+                    <div class="weblink col-sm-6 ">
+                      <img src="#">
+                      <p class="weblinkdesc"><a href="https://bento.io/">Bento.io</a> is a website offering a full stack devolpment guide buy using many differnt free resourses like code acadamy</p>
+                    </div>
+                    <div class="weblink col-sm-4">
+                      <img src="#">
+                      <p class="weblinkdesc"><a href="https://www.codecademy.com/">Codecademy.com</a> features in browser interactive tutirolals cover subjects like html,css, and javascript</p>
+                      </div>
+                    <div class="weblink col-sm-4 ">
+                      <img src="#">
+                      <p class="weblinkdesc"><a href="https://dash.generalassemb.ly/">dash.generalassemb.ly</a> is very similar to Codecademy and offers inertactive tutrioals</p>
+                    </div>
+                    <div class="weblink col-sm-4">
+                      <img src="#">
+                      <p class="weblinkdesc"><a href="https://github.com/">github.com</a> is a site for devolpers use for version control and as a code repository</p>
+                    </div>
+                    <div class="weblink col-sm-4">
+                      <img src="#">
+                      <p class="weblinkdesc"><a href="https://github.com/">github.com</a> is a site for devolpers use for version control and as a code repository</p>
+                    </div>
+                  </div>  
+
+              </article>
+        </div>
+</div> -->
    <footer>
-      <ul class="navfoot use">
-        <li class="navfoot"><a href="index.html">Home</a></li>
-        <li class="navfoot"><a href="#">Projects</a></li>
-        <li class="navfoot"><a href="#">Useful Sites</a></li>
-        <li class="navfoot"><a href="#">Contact</a></li>
-      </ul>
+    
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>

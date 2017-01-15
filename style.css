@@ -19,7 +19,7 @@ header {
 	top: 0;
 	right: 0;
 	left: 0;
-	background: url("banner.jpg");
+	/*background: url("banner.jpg");*/
 	background-size: cover;
 	background-position: top;
 	
@@ -27,10 +27,12 @@ header {
 }
 
 body {
+	padding-top: 70px;
 	margin: 0;
 	font-family: Arial, sans-serif;
 	background: white;
 	color: black;
+	padding-bottom: 70px;
 }
 ul{
 	
@@ -75,7 +77,6 @@ a{
 article { 
 	z-index: 900;
 	margin: 0 auto;
-  margin-top: 200px;
   position: relative;
   max-width: 700px;
   font-family: Arial, sans-serif;
@@ -105,8 +106,10 @@ p.blog{
 	position: relative;
 	display: inline-block;
 	max-width: 25%;
+	min-height: 25%%;
 	padding: 10px 10px 10px 10px;
 	margin: 10px 10px 10px 10px;
+	
 }
 .use{
 	position: fixed;
